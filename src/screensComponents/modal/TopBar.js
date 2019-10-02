@@ -150,10 +150,10 @@ function createStyles() {
   return StyleSheet.create({
     container: {
       flexDirection: 'row',
-      height: 32 + Constants.statusBarHeight
+      height: 32// + Constants.statusBarHeight
     },
     statusBar: {
-      height: Constants.statusBarHeight
+      height: 20 //Constants.statusBarHeight
     },
     title: {
       fontWeight: '500'
